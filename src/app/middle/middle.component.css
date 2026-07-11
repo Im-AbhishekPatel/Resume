@@ -1,0 +1,153 @@
+.resume-middle {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fafafa;
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  gap: 12px;
+}
+
+.middle-left,
+.middle-right {
+  min-width: 0;
+}
+
+.content-block {
+  margin-bottom: 16px;
+}
+
+.content-block h3 {
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  color: #000000;
+  font-weight: 700;
+}
+
+.content-block p,
+.content-block li {
+  margin: 0 0 6px;
+  font-size: 0.94rem;
+  line-height: 1.5;
+  color: #374151;
+}
+
+.job-block {
+  margin-bottom: 12px;
+}
+
+.experience-card {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.job-block h4 {
+  margin: 0 0 2px;
+  font-size: 0.98rem;
+  color: #111827;
+}
+
+.company,
+.date,
+.project {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+.date i {
+  margin-right: 6px;
+  color: #2563eb;
+}
+
+.location-icon {
+  margin-left: 8px;
+}
+
+.company {
+  color: #4b5563;
+  font-weight: 600;
+}
+
+.content-block p.company-blue {
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.content-block ul {
+  margin: 4px 0 0 18px;
+  padding: 0;
+}
+
+.skill-row {
+  margin-bottom: 8px;
+}
+
+.training-company,
+.training-platform {
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.education-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 4px 0 0;
+}
+
+.education-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.education-location .location-icon {
+  margin-left: 0;
+  color: #2563eb;
+}
+
+.skill-label {
+  color: #2563eb;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.skill-values {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skill-tag {
+  display: inline-block;
+  padding: 3px 8px;
+  border: 1px solid #1f7ed6;
+  border-radius: 4px;
+  color: #111827;
+  background: #fff;
+  font-size: 0.9rem;
+}
+
+.content-editor {
+  width: 100%;
+  min-height: 260px;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  resize: vertical;
+  box-sizing: border-box;
+  font-family: inherit;
+  color: #111827;
+}
+
+.content-editor:focus {
+  outline: 2px solid #93c5fd;
+  border-color: #93c5fd;
+}
